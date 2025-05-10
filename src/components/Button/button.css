@@ -1,0 +1,81 @@
+.btn {
+  font-family: inherit;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+}
+
+.btn.small {
+  font-size: 0.75rem;
+  padding: 0.25em 0.5em;
+}
+
+.btn.medium {
+  font-size: 1rem;
+  padding: 0.5em 1em;
+}
+
+.btn.large {
+  font-size: 1.25rem;
+  padding: 0.75em 1.5em;
+}
+
+.btn.blue {
+  color: #ffffff;
+  border-color: #1e40af;
+  background-color: #1e40af;
+}
+.btn.blue.secondary {
+  color: #1e40af;
+  background-color: #ffffff;
+  border-color: #1e40af;
+}
+.btn.blue.text {
+  color: #1e40af;
+  background: none;
+  border: none;
+}
+.btn.blue.text:hover {
+  text-decoration: underline;
+}
+
+.btn.red {
+  color: #ffffff;
+  background-color: #b91c1c;
+  border-color: #b91c1c;
+}
+.btn.red.secondary {
+  color: #b91c1c;
+  background-color: #ffffff;
+  border-color: #b91c1c;
+}
+.btn.red.text {
+  color: #b91c1c;
+  background: none;
+  border: none;
+}
+.btn.red.text:hover {
+  text-decoration: underline;
+}
+
+.btn.green {
+  color: #ffffff;
+  background-color: #15803d;
+  border-color: #15803d;
+}
+.btn.green.secondary {
+  color: #15803d;
+  background-color: #ffffff;
+  border-color: #15803d;
+}
+.btn.green.text {
+  color: #15803d;
+  background: none;
+  border: none;
+}
+.btn.green.text:hover {
+  text-decoration: underline;
+}
