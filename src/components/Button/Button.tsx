@@ -16,11 +16,12 @@ const Button: React.FC<ButtonProps> = ({
   size = 'medium',
   color = 'blue',
   children,
+  disabled,
   ...rest
 }) => {
   const className = `btn ${variant} ${size} ${color}`;
   return (
-    <button className={className} {...rest}>
+    <button className={className} {...rest} disabled={disabled}>
       {children}
     </button>
   );

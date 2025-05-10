@@ -28,16 +28,19 @@
   border-color: #1e40af;
   background-color: #1e40af;
 }
+
 .btn.blue.secondary {
   color: #1e40af;
   background-color: #ffffff;
   border-color: #1e40af;
 }
+
 .btn.blue.text {
   color: #1e40af;
   background: none;
   border: none;
 }
+
 .btn.blue.text:hover {
   text-decoration: underline;
 }
@@ -47,16 +50,19 @@
   background-color: #b91c1c;
   border-color: #b91c1c;
 }
+
 .btn.red.secondary {
   color: #b91c1c;
   background-color: #ffffff;
   border-color: #b91c1c;
 }
+
 .btn.red.text {
   color: #b91c1c;
   background: none;
   border: none;
 }
+
 .btn.red.text:hover {
   text-decoration: underline;
 }
@@ -66,16 +72,23 @@
   background-color: #15803d;
   border-color: #15803d;
 }
+
 .btn.green.secondary {
   color: #15803d;
   background-color: #ffffff;
   border-color: #15803d;
 }
+
 .btn.green.text {
   color: #15803d;
   background: none;
   border: none;
 }
+
 .btn.green.text:hover {
   text-decoration: underline;
+}
+
+.btn:disabled {
+  opacity: 0.5;
 }
