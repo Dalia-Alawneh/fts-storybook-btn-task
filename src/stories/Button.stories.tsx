@@ -1,5 +1,6 @@
 import Button from "../components/Button";
 import type { Meta, StoryObj } from '@storybook/react';
+import { action } from '@storybook/addon-actions';
 
 const meta: Meta<typeof Button> = {
   title: 'DesignSystem/Button',
@@ -19,6 +20,9 @@ const meta: Meta<typeof Button> = {
       options: ['blue', 'red', 'green'],
     },
   },
+  args: {
+    onClick: action('button-clicked'),
+  }
 }
 export default meta;
 type Story = StoryObj<typeof Button>;
